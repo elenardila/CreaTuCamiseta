@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu camiseta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Crea tu camiseta</h1>
+    <form id="customForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+        <label for="rangeX">Izquiera/derecha:</label>
+        <input type="range" id="rangeX" name="rangeX" min="0" max="500">
+        <label for="rangeY">Arriba/abajo:</label>
+        <input type="range" id="rangeY" name="rangeY" min="0" max="500">
+        <br><br>
+        <label for="color">Blanco</label>
+        <input type="radio" name="color" value="blanco" id="blanco" checked>
+        <label for="color">Negro</label>
+        <input type="radio" name="color" value="negro" id="negro">
+    </form>
+    <div id="contenedor">
+        <div id="camisetaDiv">
+            <img src="img/camiseta/white.png" alt="Imagen" id="imagenCamiseta">
+        </div>
+        <div id="imagenesDiv">
+            <h2>Imágenes</h2>
+            <img src="img/simpsonsImg/bart.png" alt="bart" id="imagenBart" class="simpsons">
+            <img src="img/simpsonsImg/homer.png" alt="homer" id="imagenHomer" class="simpsons">
+            <img src="img/simpsonsImg/lisa.png" alt="lisa" id="imagenLisa" class="simpsons">
+            <img src="img/simpsonsImg/simpsons.png" alt="simpsons" id="imagenSimpsons" class="simpsons">
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

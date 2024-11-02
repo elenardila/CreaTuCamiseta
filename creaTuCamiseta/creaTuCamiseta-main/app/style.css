@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#camisetaDiv {
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    position: relative;
+}
+
+#imagenesDiv {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width: 100px;
+    height: 400px;
+}
+
+#imagenBart #imagenHomer #imagenLisa #imagenSimspons {
+    width: 100%;
+    margin-top: 20px;
+}
